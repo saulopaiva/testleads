@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads",
+  "info": {
+    "singularName": "lead",
+    "pluralName": "leads",
+    "displayName": "Lead",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "observation": {
+      "type": "richtext"
+    },
+    "state": {
+      "type": "enumeration",
+      "enum": [
+        "Acre",
+        "Alagoas",
+        "Amazonas",
+        "Amapá",
+        "Bahia",
+        "Ceará",
+        "Distrito Federal",
+        "Espírito Santo",
+        "Goiás",
+        "Maranhão",
+        "Minas Gerais",
+        "Mato Grosso do Sul",
+        "Mato Grosso",
+        "Pará",
+        "Paraíba",
+        "Pernambuco",
+        "Piauí",
+        "Paraná",
+        "Rio de Janeiro",
+        "Rio Grande do Norte",
+        "Rondônia",
+        "Roraima",
+        "Rio Grande do Sul",
+        "Santa Catarina",
+        "Sergipe",
+        "São Paulo",
+        "Tocantins"
+      ]
+    },
+    "phone": {
+      "type": "biginteger"
+    }
+  }
+}
